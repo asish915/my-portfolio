@@ -4,6 +4,7 @@ import {
   ChevronDown, Award, Briefcase, GraduationCap, Code2,
   Cloud, Shield, Terminal, Activity, Star, ArrowRight
 } from "lucide-react";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 const Github = GitFork;
 const Linkedin = Link2;
 
@@ -471,6 +472,7 @@ export default function App() {
       <Education />
       <Contact />
       <Footer />
+      <SpeedInsights />
     </>
   );
 }
