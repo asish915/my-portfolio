@@ -105,7 +105,7 @@ function Navbar() {
 
 function Hero() {
   const [typed, setTyped] = useState("");
-  const roles = ["DevOps Engineer","Cloud Architect","AWS Specialist","Full-Stack Dev"];
+  const roles = ["CS Student at Silicon University","DevOps Engineer","Cloud Architect","AWS Specialist","ML/DL Enthusiast"];
   const [ri, setRi] = useState(0);
   const [deleting, setDeleting] = useState(false);
   useEffect(() => {
