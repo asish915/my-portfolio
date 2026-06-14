@@ -1,0 +1,4 @@
+/* Base resets handled in App.css */
+body {
+  min-height: 100vh;
+}
